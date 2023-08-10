@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maim page</title>
+
+    <link rel="stylesheet" href="../dist/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <button class="burger-menu"><img src="assets/img/burger.svg" alt="burger menu"></button>
+                <a href="#" class="logo"><h1>Bookshop</h1></a>
+                <ul>
+                    <li><a href="#" class="active">books</a></li>
+                    <li><a href="#">audiobooks</a></li>
+                    <li><a href="#">Stationery & gifts</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+                <div class="header-buttons">
+                    <a href="#" class="user"><img src="assets/img/user.svg" alt="user icon"></a>
+                    <a href="#" class="search"><img src="assets/img/search.svg" alt="search icon"></a>
+                    <a href="#" class="basket"><img src="assets/img/shop bag.svg" alt="basket icon"> <span>3</span></a>
+                </div>
+            </nav>
+        </div>
+        <div class="promo top">
+            <div>
+                <p>top 100 books 2022</p>
+                <img src="assets/img/arrow.svg" alt="arrow icon">
+            </div>
+        </div>
+        <div class="container position-relative">
+            <div class="promo change">
+                <div>
+                    <p>Change old book on new</p>
+                    <img src="assets/img/arrow.svg" alt="arrow icon">
+                </div>
+            </div>
+            <div class="slider">
+                <div class="sliders__container">
+                    <a href="#"><img src="assets/img/banner.png" alt="slide"></a>
+                    <a href="#"><img src="assets/img/banner2.png" alt="slide"></a>
+                    <a href="#"><img src="assets/img/banner3.png" alt="slide"></a>
+                </div>
+
+                <div class="dots">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-container">
+                <aside>
+                    <ul>
+                        <li class="active"><button data-param="Architecture">Architecture</button></li>
+                        <li><button data-param="Art">Art & Fashion</button></li>
+                        <li><button data-param="Biography & Autobiography">Biography</button></li>
+                        <li><button data-param="Business">Business</button></li>
+                        <li><button data-param="Crafts & Hobbies">Crafts & Hobbies</button></li>
+                        <li><button data-param="Drama">Drama</button></li>
+                        <li><button data-param="Fiction">Fiction</button></li>
+                        <li><button data-param="Cooking">Food & Drink</button></li>
+                        <li><button data-param="Health & Fitness">Health & Wellbeing</button></li>
+                        <li><button data-param="History">History & Politics</button></li>
+                        <li><button data-param="Humor">Humor</button></li>
+                        <li><button data-param="Poetry">Poetry</button></li>
+                        <li><button data-param="Psychology">Psychology</button></li>
+                        <li><button data-param="Science">Science</button></li>
+                        <li><button data-param="Technology">Technology</button></li>
+                        <li><button data-param="Travel">Travel & Maps</button></li>
+                    </ul>
+                </aside>
+                <article>
+                    <div class="card-container"></div>
+                    <button class="btn show-more">load more</button>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <script src="../dist/bundle.js"></script>
+</body>
+</html>
