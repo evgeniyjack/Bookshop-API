@@ -1,1 +1,1 @@
-# Bookshop-API
+Проект «Книжный интернет-магазин на API Google Books»
